@@ -50,7 +50,7 @@ The Interdisciplinary Data Science Lab (IDSL) at [Queens College, CUNY](https://
 
 Our [research](research) efforts encompass the entire breadth of the technology development pipeline, from developing new mathematical techniques to working with industry and clinical partners towards commercialization.
 
-<figure class="fourth">
+<figure class="text-center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/qc-logo.png" style="width: 200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/gc-logo.png" style="width: 200px">
 </figure>

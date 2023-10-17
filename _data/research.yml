@@ -1,0 +1,39 @@
+- title: Sequential Algebrogeometric Analysis (SAGA)
+  image: SAGA-Algorithm-1.png
+  description: New methods in algebraic geometry and machine learning create an opportunity for better capturing and analyzing the progression of chronic disease via heterogenous, longitudinal data, thus enhancing clinical decision making. The goal of this project is to develop novel computational methods to analyze these low-density multimodal time series data, which arise frequently in medical informatics. Such analyses can uncover patient trajectories that describe individualized progressions through disease stages over time.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
+- title: Tensor Analysis for Biomedical and Data Science Applications
+  image: 3D-Multicolored-Cube.png
+  description: Many types of data naturally occur as higher dimensional arrays, or tensors. However, problems that are easily tractable for matrices (two dimensional tensors), such as determining tensor rank or calculating the spectral norm, become NP-hard. We have been developing novel methods for tensor analysis and utilizing them for tensor decomposition, classification, and dimensionality reduction tasks.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
+- title: Advancing Artificial Intelligence and Machine Learning Techniques
+  image: tgfntbi.png
+  description: While deep learning and other general-purpose ML methods have been successful in many domains, there remain limitations that prevent such techniques from achieving sufficient performance in a number of applications. We have been developing new AI/ML techniques that can achieve high performance in domains with insufficient data, that can incorporate domain knowledge, that handle asynchronous data availability, and can leverage intrinsic data structures and temporal relationships. 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
+- title: Intelligent Integration of Multimodal Data for Clinical Decision Support 
+  image: cdss.png
+  description: For many diseases and illnesses, the analysis of single data modalities such as images or EHR alone is insufficient - only the integration and processing of all salient sources of information can form an accurate model and generate reliable clinical recommendations. Working alongside our clinical colleagues we have utilized this multimodal approach to produce decision support systems for a broad spectrum of illnesses&#58; cancer, traumatic brain injury, diabetic foot ulcers, fibromyalgia, and inflammatory bowel disease. 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:

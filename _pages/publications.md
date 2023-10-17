@@ -1,18 +1,17 @@
 ---
-title: "Allan Lab - Publications"
+title: "IDSL - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "IDSL -- Publications"
 sitemap: false
 permalink: /publications/
 ---
 
 
-# Publications
+# Publications and Patents
 
-## Group highlights
+## Group Highlights
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
-
+(For a full list of publications see <a href="https://scholar.google.com/citations?user=llkzRAYAAAAJ&hl=en">Google Scholar</a> or <a href="https://orcid.org/0000-0002-5125-7741">ORCID</a>)
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -53,10 +52,31 @@ permalink: /publications/
 
 
 ## Patents
-<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
+<ul>
+	<li>Sequential Minimal Optimization Process for Learning Using Partially Available Privileged Information Techniques 
+		<!--<a href="https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20200250496.PGNR.">(US 2020/0250496 A1</a>)<br/>-->
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11531851">(US 11,531,851)</a><br/>
+	<i>Inventors: Kayvan Najarian, Jonathan Gryak, Elyas Sabeti, Joshua Drews</i></li>
+	<li>Tensor Amplification-based Data Processing 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20210338171">(US 2021/0338171)</a><br/>
+	<i>Inventors: Hendrikus Derksen, Neriman Tokcan, Kayvan Najarian, Jonathan Gryak</i></li>
+	<li>Automatic Filter Pruning Technique for Convolutional Neural Networks 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10936913">(US 10,936,913)</a><br/>
+	<i>Inventors: Heming Yao, Kayvan Najarian, Jonathan Gryak</i></li>
+	<li>Automated Optic Nerve Sheath Diameter Measurement 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20210022631">(US 2021/0022631)</a><br/>
+	<i>Inventors: Reza Soroushmehr, Kayvan Najarian, Venkatakrishna Rajajee, Kevin Ward, Jonathan Gryak, Craig A. Williamson, Mohamad H. Tiba</i></li>
+	<li>Automated Anatomic and Regional Location of Disease Features in Colonoscopy Videos 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20200364859">(US 2020/0364859)</a><br/>
+	<i>Inventors: Kayvan Najarian, Heming Yao, Reza Soroushmehr, Jonathan Gryak, Ryan Stidham</i></li>
+	<li>Systems and Methods for Predicting and Detecting a Cardiac Event 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11154254">(US 11,154,254</a>,
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10786208">US 10,786,208)</a>,
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10463314">US 10,463,314)</a><br/>	
+	<i>Inventors: Kayvan Najarian, Harm Derksen, Zhi Li, Jonathan Gryak, Pujitha Gunaratne</i></li>
+</ul>
 
-<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a>
-
+<!-- 
 ## Full List of publications
 
 {% for publi in site.data.publist %}
@@ -65,3 +85,4 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+-->
