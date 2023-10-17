@@ -8,9 +8,7 @@
 # Site settings
 title: The Interdisciplinary Data Science Lab (IDSL)
 email: jgryak@qc.cuny.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the Interdisciplinary Data Science Lab.
-baseurl: ""
+description: Website of the Interdisciplinary Data Science Lab.
 url: ""
 
 include:
