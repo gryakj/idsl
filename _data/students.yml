@@ -8,18 +8,12 @@
 #  education3:
 #  education4:
 
-- name: Ilse Kuijf 
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+- name: Aleksandra Georgievska
+  info: Undergraduate Student
   number_educ: 0
   education1:
 
-- name: Tessa Van der Ent
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+- name: Zicheng Yang
+  info: Undergraduate Student
   number_educ: 0
   education1:
-
-
