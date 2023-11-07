@@ -53,6 +53,10 @@ permalink: /publications/
 
 ## Patents
 <ul>
+	<a id="qmda_patent"></a>
+	<li>Methods and Systems for Multilinear Discriminant Analysis Via Invariant Theory for Data Classification
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230350973">(US 2023/0350973 A1</a>)<br/>
+		<i>Inventors: Kayvan Najarian, Olivia Pifer Alge, Jonathan Gryak, Harm Derksen, Cristian Minoccheri</i></li>
 	<li>Sequential Minimal Optimization Process for Learning Using Partially Available Privileged Information Techniques 
 		<!--<a href="https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20200250496.PGNR.">(US 2020/0250496 A1</a>)<br/>-->
 		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11531851">(US 11,531,851)</a><br/>
