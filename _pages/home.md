@@ -52,5 +52,5 @@ Our [research](research) efforts encompass the entire breadth of the technology 
 
 <figure class="text-center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/qc-logo.png" style="width: 200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/gc-logo.png" style="width: 200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/gc-logo.png" style="width: 300px">
 </figure>
