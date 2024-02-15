@@ -1,3 +1,13 @@
+- title: "Prediction of Oral Food Challenge Outcomes via Ensemble Learning"
+  image: leap-all-correlation.png
+  description: In this study, we seek to leverage machine learning methodologies for oral food challenge (OFC outcome prediction). Retrospective data was gathered from 1,112 patients who collectively underwent a total of 1,284 OFCs, and consisted of clinical factors including serum-specific Immunoglobulin E (IgE), total IgE, skin prick tests (SPTs), comorbidities, sex, and age. Using these features, multiple machine learning models were constructed to predict OFC outcomes for three common allergens - peanut, egg, and milk. The best performing model for each allergen was an ensemble of random forest (egg) or Learning Using Concave and Convex Kernels (LUCCK) (peanut, milk) models, which achieved an Area under the Curve (AUC) of 0.91, 0.96, and 0.94, in predicting OFC outcomes for peanut, egg, and milk, respectively.
+  authors: J. Zhang, D. Lee, K. Jungles, D. Shaltis, K. Najarian, R. Ravikumar, G. Sanders, J. Gryak
+  link:
+    url: https://doi.org/10.1016/j.imu.2022.101142
+    display: Informatics in Medicine Unlocked 36 (2023)
+  highlight: 1
+  news2:
+
 - title: "An Interpretable Neural Network for Outcome Prediction in Traumatic Brain Injury"
   image: tgfntbi.png
   description: In this study, we apply an interpretable neural network model based on tropical geometry to predict unfavorable outcomes at six months from hospitalization in traumatic brain injury (TBI) patients, based on information available at the time of admission. The classification results for the proposed model are comparable with those of traditional ML methods. However, our model is interpretable, and it allows the extraction of intelligible rules. These rules can be used to determine relevant factors in assessing TBI outcomes and can be used in situations when not all necessary factors are known to inform the full model’s decision.
