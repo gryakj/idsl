@@ -1,6 +1,7 @@
 - name: <a href="/aboutme/">Jonathan Gryak, PhD</a>
   photo: jgryak-web.jpg
-  info: Assistant Professor of Computer Science, Queens College, CUNY and the CUNY Graduate Center
+  info: |
+        Assistant Professor of Computer Science and Data Science, Graduate Center and Queens College, CUNY
   email: jgryak@qc.cuny.edu
   number_educ: 4
   education1: Ph.D. Computer Science, CUNY Graduate Center, 2017
