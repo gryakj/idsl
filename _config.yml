@@ -9,6 +9,7 @@
 title: The Interdisciplinary Data Science Lab (IDSL)
 email: jgryak@qc.cuny.edu
 description: Website of the Interdisciplinary Data Science Lab.
+author: Jonathan Gryak
 url: ""
 
 include:
@@ -38,3 +39,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+plugins:
+  - jekyll-seo-tag
