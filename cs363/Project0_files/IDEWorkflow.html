@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="just-the-docs-default.css">
+  <script src="lunr.min.js"></script>
+  <script src="just-the-docs.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>IDE Workflow</title>
+
+<!-- Intentionally duplicates the default theme stylesheet so there's a fallback when changing themes -->
+<link id="jtdThemeCSS" rel="stylesheet" href="just-the-docs-default.css">
+
+<!-- Script for LaTeX rendering. -->
+<link rel="stylesheet" href="katex.min.css">
+<script defer="defer" src="katex.min.js"></script>
+<script>
+function renderKaTeX() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false},
+      {left: '\\[', right: '\\]', display: true},
+    ],
+  });
+}
+</script>
+<script defer="defer" src="auto-render.min.js" onload="renderKaTeX();"></script>
+
+
+</head>
+
+<body>
+    <div class="main-content-wrap">
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 class="no_toc" id="ide-workflow">
+  
+  
+    <a href="#ide-workflow" class="anchor-heading" aria-labelledby="ide-workflow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> IDE Workflow
+  
+  
+</h1>
+    
+<h2 class="no_toc text-delta" id="table-of-contents">
+  
+  
+    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+  
+  
+</h2>
+    
+
+<ul id="markdown-toc">
+  <li><a href="#opening-the-workspace" id="markdown-toc-opening-the-workspace">Opening the Workspace</a></li>
+  <li><a href="#using-an-ide" id="markdown-toc-using-an-ide">Using an IDE</a></li>
+  <li><a href="#miscellaneous" id="markdown-toc-miscellaneous">Miscellaneous</a></li>
+  <li><a href="#extra-reading--what-is-the-path-environment-variable" id="markdown-toc-extra-reading--what-is-the-path-environment-variable">Extra reading – What is the path environment variable?</a></li>
+</ul><hr>
+
+<p>First, you will need to download an IDE such as VS Code, IntelliJ 
+PyCharm or Idea, etc. If you are given the option to add to path, do it.
+ Restarting the terminal may be needed for the change to propagate. For 
+VS Code, install the suggested plug-ins such as PyLance.</p>
+<h2 id="opening-the-workspace">
+  
+  
+    <a href="#opening-the-workspace" class="anchor-heading" aria-labelledby="opening-the-workspace"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Opening the Workspace
+  
+  
+</h2>
+    
+
+<p>Alternatively, just open your IDE and open the project folder through
+ the GUI. The below is more convenient once you set it up and learn it.</p>
+
+<ol>
+  <li>Download zip from website, drag and drop it into your folder for this class.</li>
+  <li>Unzip using GUI (or do this as a part of #3 in the terminal).</li>
+  <li>Open your IDE (If you don’t have your IDE added to path, search up
+ how to and add it first, IDE’s often include a GUI option to do it with
+ a few clicks).
+    <ol>
+      <li>Open terminal in the current folder &amp; close current folder.
+        <ol>
+          <li>MacOS – set up &amp; use shortcut or GUI: see options in this maketecheasier.com article.</li>
+          <li>Windows – set up &amp; use GUI: add either git bash and/ 
+or Windows Terminal to the context menu for them to show up after right 
+clicking in empty space of a folder. Alternatively, open any terminal, 
+type <code class="language-plaintext highlighter-rouge">cd </code>, drag and drop the folder in which the project is (tested with Windows Terminal).</li>
+          <li>Linux – use GUI: right click in your file manager and select open terminal.</li>
+        </ol>
+      </li>
+      <li>Type your <code class="language-plaintext highlighter-rouge">your_editor .</code>, i.e. <code class="language-plaintext highlighter-rouge">code .</code> (run program aliased as code in the folder “.”, which is the current directory).
+        <ul>
+          <li>This is only for editors that can open folders, such as VS Code (<code class="language-plaintext highlighter-rouge">code .</code>) and IntelliJ (<code class="language-plaintext highlighter-rouge">pycharm .</code>) editors. See the Using an IDE section for features you might want to use.</li>
+          <li>If you want to use something like vim or emacs, just keep the terminal open and open files using i.e. <code class="language-plaintext highlighter-rouge">vi file.py</code>.
+ Note that you can press tab to get help from autocomplete instead of 
+typing out file names, it’ll look through the possibilities and give as 
+many characters as unambiguous.</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>If your editor has an integrated terminal like VS Code or PyCharm, you can close the terminal. Otherwise, you can <code class="language-plaintext highlighter-rouge">Alt-Tab</code> or <code class="language-plaintext highlighter-rouge">Cmd-Tab</code> to switch between windows.
+    <ul>
+      <li>On Windows, you may need to do extra things to get Anaconda 
+working in the integrated terminal, see how to do so for VS code in the 
+Using an IDE section.</li>
+      <li>On Windows, if you can’t get the integrated terminal working: 
+when doing step 3, you need to open an Anaconda prompt, and enter the 
+folder of the project. Doing the latter is described in 3.a.ii. If 
+dragging and dropping doesn’t work, you can also click on the path bar 
+and copy the absolute path.</li>
+    </ul>
+  </li>
+</ol>
+<h2 id="using-an-ide">
+  
+  
+    <a href="#using-an-ide" class="anchor-heading" aria-labelledby="using-an-ide"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Using an IDE
+  
+  
+</h2>
+    
+
+<p>VS Code Windows shortcuts are noted, but other OSes and most IDEs 
+should have the same features, so you can look up how to do it in yours.
+ You should try these out in the python basics or the tutorial project; 
+this can save you a lot of time in the future projects.</p>
+
+<p>These are in rough order of usefulness.</p>
+
+<ul>
+  <li>See descriptions of variables. VS Code: <code class="language-plaintext highlighter-rouge">mouse hover</code> to see what a variable is, <code class="language-plaintext highlighter-rouge">Ctrl- mouse hover</code> to see stringdoc or definition, <code class="language-plaintext highlighter-rouge">Ctrl- mouse click</code> or <code class="language-plaintext highlighter-rouge">f12</code>
+ to navigate to definition. Especially helpful for functions, although 
+the IDE may not always figure out the definitions, for instance when 
+PyLance in VS Code can’t figure out what class’s method is getting 
+called.</li>
+  <li>Search in all files in project. VS Code: <code class="language-plaintext highlighter-rouge">Ctrl-Shift-F</code>. If you want to find what function <code class="language-plaintext highlighter-rouge">foo</code> does, search for <code class="language-plaintext highlighter-rouge">def foo</code></li>
+  <li>Shortcut for hiding &amp; showing the integrated terminal to free up the screen. VS Code: <code class="language-plaintext highlighter-rouge">Ctrl-`</code> (the symbol to the left of 1).
+    <ul>
+      <li>In Windows VS Code, you need to do the following to get conda 
+working in the integrated terminal: in the bottom bar on the left, 
+select your conda environment for the class as the Python interpreter. 
+You may need to open a .py file to see this option. Then, open the 
+integrated terminal, and from the dropdown next to the “+” sign, select 
+the command prompt (&amp; close the Powershell). Your environment should
+ automatically activate, you can run <code class="language-plaintext highlighter-rouge">python -V</code> (note the capital V) to check that the Python version is 3.6.</li>
+    </ul>
+  </li>
+  <li>Debugger (needs a little bit of setup). Set breakpoints where you 
+want them by clicking next to line number on the left, and run the 
+debugger on the autograder.py file. VS Code: open the autograder.py file
+ and press f5. Select Python, make sure your Python 3.6 interpreter is 
+in use, choose “current python file”.</li>
+  <li>Auto format code. VS Code: MacOS <code class="language-plaintext highlighter-rouge">Shift-Option-F</code>, Windows <code class="language-plaintext highlighter-rouge">Shift-Alt-F</code>, Linux <code class="language-plaintext highlighter-rouge">Ctrl-Shift-I</code>.</li>
+  <li>Search all filenames in project. VS Code: <code class="language-plaintext highlighter-rouge">Ctrl-P</code>.</li>
+  <li>Search things to you can do in the IDE. VS Code: <code class="language-plaintext highlighter-rouge">Ctrl-Shift-P</code>.</li>
+</ul>
+<h2 id="miscellaneous">
+  
+  
+    <a href="#miscellaneous" class="anchor-heading" aria-labelledby="miscellaneous"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Miscellaneous
+  
+  
+</h2>
+    
+
+<ul>
+  <li>Switch between windows: <code class="language-plaintext highlighter-rouge">Alt-Tab</code> on Windows and Linux or <code class="language-plaintext highlighter-rouge">Cmd-Tab</code> on MacOS. Pressing tab more than once chooses a less recent window.</li>
+  <li>Using multiple desktops to sort open windows.</li>
+  <li>Browser: <code class="language-plaintext highlighter-rouge">Ctrl-T</code> to open new tab, <code class="language-plaintext highlighter-rouge">Ctrl-Shift-T</code> to re-open the most recently closed tab (repeatable), <code class="language-plaintext highlighter-rouge">Ctrl-W</code> to close the current tab, <code class="language-plaintext highlighter-rouge">Ctrl-Tab</code> and <code class="language-plaintext highlighter-rouge">Ctrl-Shift-Tab</code> to cycle between tabs (Firefox and Chrome are different with this last one).</li>
+</ul>
+<h2 id="extra-reading--what-is-the-path-environment-variable">
+  
+  
+    <a href="#extra-reading--what-is-the-path-environment-variable" class="anchor-heading" aria-labelledby="extra-reading--what-is-the-path-environment-variable"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Extra reading – What is the path environment variable?
+  
+  
+</h2>
+    
+
+<p>This is not related to course content or the workflow at all.</p>
+
+<p>The OS has many executable files, and it needs the path to the 
+executable to run it. For instance, clicking an icon in program list or 
+taskbar/ dock is just a shortcut – mapping from program name to the 
+location of the file to execute. From the terminal, we can simply 
+navigate into the folder of the executable and run the file, or give the
+ absolute path to the file.</p>
+
+<p>In the terminal, a command consists of first the program, then its 
+options and arguments. If the program part doesn’t have any “/” in it, 
+it is recognized as an attempt to use the Path environment variable.</p>
+
+<p>Path is conceptually a collection of shortcuts for commands. The OS 
+looks for the first word as an executable in the folders given in the 
+Path variable. We simply need to add the folder containing the 
+appropriate program to Path if we want to call if from anywhere.</p>
+
+<p>Anaconda effectively changes what <code class="language-plaintext highlighter-rouge">python</code>
+ corresponds to, pointing it to a different Python interpreter. 
+Furthermore, it keeps that Python interpreter and its installed 
+libraries separate from everything else, all without breaking the Path 
+variable.</p>
+</main>
+<hr>
+<footer>
+Project Source: <a href="http://ai.berkeley.edu" >UC Berkeley AI</a> 
+</footer>
+</div>
+</div>
+</body>
+</html>
