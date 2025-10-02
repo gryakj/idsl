@@ -53,6 +53,14 @@ permalink: /publications/
 
 ## Patents
 <ul>
+	<a id="tensoramp_patent"></a>
+	<li>Tensor Amplification-based Data Processing 
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12402837">(US 12,402,837)</a><br/>
+	<i>Inventors: Hendrikus Derksen, Neriman Tokcan, Kayvan Najarian, Jonathan Gryak</i></li>
+	<a id="fheml_patent"></a>
+	<li>Novel Systems and Methods for Classifying Encrypted Data Using an Encrypted Machine Learning Model
+		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20250266983">(US 2025/0266983</a>)<br/>
+		<i>Inventors: Kayvan Najarian, Emily Wittrup, Cristian Minoccheri, Jonathan Gryak, Richard Wilson, Delaram Kahrobaei, Alexander Wood</i></li>
 	<a id="tgfn_patent"></a>
 	<li>Novel Tropical Geometry-Based Interpretable Machine Learning Method
 		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230394340">(US 2023/0394340</a>)<br/>
@@ -68,9 +76,6 @@ permalink: /publications/
 		<!--<a href="https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20200250496.PGNR.">(US 2020/0250496</a>)<br/>-->
 		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11531851">(US 11,531,851)</a><br/>
 	<i>Inventors: Kayvan Najarian, Jonathan Gryak, Elyas Sabeti, Joshua Drews</i></li>
-	<li>Tensor Amplification-based Data Processing 
-		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20210338171">(US 2021/0338171)</a><br/>
-	<i>Inventors: Hendrikus Derksen, Neriman Tokcan, Kayvan Najarian, Jonathan Gryak</i></li>
 	<li>Automatic Filter Pruning Technique for Convolutional Neural Networks 
 		<a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10936913">(US 10,936,913)</a><br/>
 	<i>Inventors: Heming Yao, Kayvan Najarian, Jonathan Gryak</i></li>

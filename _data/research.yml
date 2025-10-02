@@ -1,3 +1,13 @@
+- title: Data-driven Model Discovery
+  image: MDBench.png
+  description: Many real-world phenomena arising in engineering, biomedicine, and finance can be modeled as nonlinear dynamical systems. Governing equations for such systems have typically been discovered by utilizing expert domain knowledge combined with experimental data. Our current era of high-dimensional and large-scale experimental data has motivated the need to develop tools that can accelerate the scientific discovery process. Data-driven model discovery (MD) aims to use measurement data and machine algorithms to infer interpretable dynamical system models.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
 - title: Sequential Algebrogeometric Analysis (SAGA)
   image: SAGA-Algorithm-1.png
   description: New methods in algebraic geometry and machine learning create an opportunity for better capturing and analyzing the progression of chronic disease via heterogenous, longitudinal data, thus enhancing clinical decision making. The goal of this project is to develop novel computational methods to analyze these low-density multimodal time series data, which arise frequently in medical informatics. Such analyses can uncover patient trajectories that describe individualized progressions through disease stages over time.
