@@ -1,3 +1,13 @@
+- title: "MDBench: Benchmarking Data-Driven Methods for Model Discovery"
+  image: MDBench.png
+  description: We introduce MDBench, an open-source benchmarking framework for evaluating model discovery methods on dynamical systems. MDBench assesses 12 algorithms on 14 partial differential equations (PDEs) and 63 ordinary differential equations (ODEs) under varying levels of noise. Evaluation metrics include derivative prediction accuracy, model complexity, and equation fidelity. We also introduce seven challenging PDE systems from fluid dynamics and thermodynamics, revealing key limitations in current methods. Our findings illustrate that linear methods and genetic programming methods achieve the lowest prediction error for PDEs and ODEs, respectively. Moreover, linear models are in general more robust against noise. MDBench accelerates the advancement of model discovery methods by offering a rigorous, extensible benchmarking framework and a rich, diverse collection of dynamical system datasets, enabling systematic evaluation, comparison, and improvement of equation accuracy and robustness. 
+  authors: A. Ziaei Bideh, A. Georgievska, J. Gryak
+  link:
+    url: https://doi.org/10.48550/arXiv.2509.20529
+    display: Proceedings of the AAAI Conference on Artificial Intelligence 40 (2026)
+  highlight: 1
+  news2:
+
 - title: "Prediction of Oral Food Challenge Outcomes via Ensemble Learning"
   image: leap-all-correlation.png
   description: In this study, we seek to leverage machine learning methodologies for oral food challenge (OFC outcome prediction). Retrospective data was gathered from 1,112 patients who collectively underwent a total of 1,284 OFCs, and consisted of clinical factors including serum-specific Immunoglobulin E (IgE), total IgE, skin prick tests (SPTs), comorbidities, sex, and age. Using these features, multiple machine learning models were constructed to predict OFC outcomes for three common allergens - peanut, egg, and milk. The best performing model for each allergen was an ensemble of random forest (egg) or Learning Using Concave and Convex Kernels (LUCCK) (peanut, milk) models, which achieved an Area under the Curve (AUC) of 0.91, 0.96, and 0.94, in predicting OFC outcomes for peanut, egg, and milk, respectively.

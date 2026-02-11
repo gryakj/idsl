@@ -1,3 +1,13 @@
+- title: "Modeling Landscapes using Machine Learning (ML<sup>2</sup>): Advancing Landscape Evolution Science using AI-based Model Discovery Method"
+  image: CAIG26.png
+  description: River capture, a process of river reorganization, promotes rerouting of water, sediments, and nutrients on the Earth’s surface over geologic timescales. Developing new machine learning methods creates an opportunity to fill extant knowledge gaps in river capture distribution/modeling along with transferrable AI-based tools for geomorphologic analysis. The goal of this project is to develop heterogeneity-aware deep learning models capable of learning, simulating, and discovering landscape evolution models with spatial and temporal variations in boundary conditions (i.e., rock uplift, bedrock lithology, rainfall distribution).
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
 - title: Data-driven Model Discovery
   image: MDBench.png
   description: Many real-world phenomena arising in engineering, biomedicine, and finance can be modeled as nonlinear dynamical systems. Governing equations for such systems have typically been discovered by utilizing expert domain knowledge combined with experimental data. Our current era of high-dimensional and large-scale experimental data has motivated the need to develop tools that can accelerate the scientific discovery process. Data-driven model discovery (MD) aims to use measurement data and machine algorithms to infer interpretable dynamical system models.
