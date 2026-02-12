@@ -1,4 +1,4 @@
-- title: "Modeling Landscapes using Machine Learning (ML<sup>2</sup>): Advancing Landscape Evolution Science using AI-based Model Discovery Method"
+- title: "Modeling Landscapes using Machine Learning (ML<sup>2</sup>): Advancing Landscape Evolution Science using AI-based Model Discovery Methods"
   image: CAIG26.png
   description: River capture, a process of river reorganization, promotes rerouting of water, sediments, and nutrients on the Earth’s surface over geologic timescales. Developing new machine learning methods creates an opportunity to fill extant knowledge gaps in river capture distribution/modeling along with transferrable AI-based tools for geomorphologic analysis. The goal of this project is to develop heterogeneity-aware deep learning models capable of learning, simulating, and discovering landscape evolution models with spatial and temporal variations in boundary conditions (i.e., rock uplift, bedrock lithology, rainfall distribution).
   authors: 
