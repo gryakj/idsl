@@ -77,7 +77,7 @@ permalink: /team/
 
 
 
-## PhD Students
+## Graduate Students
 <a id="phd_students"></a>
 {% assign number_printed = 0 %}
 {% for member in site.data.phd_students %}

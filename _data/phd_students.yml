@@ -10,7 +10,13 @@
 
 - name: <a href="https://amirzia.github.io/">Amirmohammad Ziaei Bideh</a>
   photo: amir-web.jpg
-  info: PhD Student
+  info: PhD Student in Computer Science
   number_educ: 2
   education1: M.S. Life Science Technologies, Aalto University, 2022
   education2: B.S. Computer Engineering, Sharif University of Technology, 2020
+
+- name: <a href="https://github.com/trevorgor289">Trevor Gordon</a>
+  photo: trevor-web.jpg
+  info: MS Student in Data Science
+  number_educ: 1
+  education1: B.S. Biology, University of North Carolina at Chapel Hill, 2018
