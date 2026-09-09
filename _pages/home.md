@@ -50,9 +50,9 @@ permalink: /
 </div>
 
 
-The Interdisciplinary Data Science Lab (IDSL) at [Queens College, CUNY](https://www.qc.cuny.edu/) works to solve problems in biomedical informatics and computer science by developing novel artificial intelligence/machine learning methods that can leverage a problem's underlying morphology and work within its operational limitations. We then translate these techniques to commercial settings where they may make a broader impact on society.
+The Interdisciplinary Data Science Lab (IDSL) at [Queens College, CUNY](https://www.qc.cuny.edu/) works to solve problems in computer science, biomedical informatics, and the natural sciences by developing novel artificial intelligence/machine learning methods that can leverage a problem's underlying morphology and work within its operational limitations. We then translate these techniques to commercial settings where they may make a broader impact on society.
 
-Our [research](research) efforts encompass the entire breadth of the technology development pipeline, from developing new mathematical techniques to working with industry and clinical partners towards commercialization.
+Our [research](research) efforts encompass the entire breadth of the technology development pipeline, from developing new mathematical techniques to working with industry and domain science partners towards commercialization.
 
 <figure class="text-center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/qc-logo.png" style="width: 200px">

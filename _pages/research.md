@@ -8,7 +8,7 @@ permalink: /research/
 
 # Research Focus
 
-The Interdisciplinary Data Science Lab (IDSL) works to solve problems in biomedical informatics and computer science by developing novel artificial intelligence/machine learning methods that can leverage a problem's underlying morphology and work within its operational limitations.
+The Interdisciplinary Data Science Lab (IDSL) works to solve problems in computer science, biomedical informatics, and the natural sciences by developing novel artificial intelligence/machine learning methods that can leverage a problem's underlying morphology and work within its operational limitations.
  
 Most recently, we have focused on the development of **Nonlinear Algebraic Data Analysis**, which leverages methodologies from  *tensor analysis*, *numerical algebraic geometry*, *deep neural networks*, and *invariant theory*. The application of nonlinear algebraic methods to data analysis has the potential to more *accurately* and *faithfully* model *complex, real-world data*.
 
